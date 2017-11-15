@@ -1,4 +1,4 @@
-package com.example.Prototype;
+package com.example.prototype;
 
 /**
  * 原型模式(prototype)
@@ -17,6 +17,7 @@ public abstract class AbstractObject implements Cloneable {
         return this.objectName;
     }
 
+    @Override
     public Object clone(){
         Object object = null;
         try {
