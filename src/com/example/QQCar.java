@@ -5,6 +5,10 @@ package com.example;
  * Created by zw on 2017/11/15.
  * @author zw
  */
-public interface Car {
-    void drive();
+public class QQCar implements Car{
+
+    @Override
+    public void drive() {
+        System.out.println("QQCar");
+    }
 }
